@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+
+<body>
+    <h2 id="leading">LEADING TEAM:</h2>
+    <div class="container">
+        <div id="home">
+            <h3>HOME</h3>
+            <p class="score" id="score-home">0</p>
+            <div class="btn-home">
+                <button class="btn-el" id="plus1home" onclick="plus1home()">+1</button>
+                <button class="btn-el" id="plus2home" onclick="plus2home()">+2</button>
+                <button class="btn-el" id="plus3home" onclick="plus3home()">+3</button>
+            </div>
+        </div>
+        <div id="reset">
+            <button id="reset-btn" onclick="reset()">RESET</button>
+        </div>
+        <div id="guest">
+            <h3>GUEST</h3>
+            <p class="score" id="score-guest">0</p>
+            <div class="btn-guest">
+                <button class="btn-el" id="plus1guest" onclick="plus1guest()">+1</button>
+                <button class="btn-el" id="plus2guest" onclick="plus2guest()">+2</button>
+                <button class="btn-el" id="plus3guest" onclick="plus3guest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
